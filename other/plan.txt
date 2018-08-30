@@ -1,0 +1,35 @@
+Mon
+Monday Todo list
+  - Wash clothes.
+  - Clean house.
+  -
+Tue
+Tuesday Todo List:
+  - 3 km
+  - linux-17-4 PKI: Public Key Infrastructure
+  - Web Service：Socket TCP
+Wed
+Wednesday Todo List:
+  -
+  -
+  -
+Thu
+Thursday Todo list
+  -
+  -
+  -
+Fri
+Friday Todo list
+  - MariaDB SQL 23-01
+  - lamp make install 23-02
+  - bash...
+Sat
+Satday Todo list:
+  -  3km
+  -
+  -  python3
+Sun
+Sunday Todo list:
+  -  Continued to do the unfinished tasks.
+  -  Review...
+  -  Next week To Do List.

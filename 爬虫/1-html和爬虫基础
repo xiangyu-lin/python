@@ -1,0 +1,42 @@
+爬虫技术
+
+用途
+  数据监控
+  数据收集
+  信息集合
+  资源采集
+
+浏览网页的过程
+  1.输入网址
+  2.浏览器向DNS服务商发送请求
+  3.找对应服务器
+  4.服务器解析请求
+  5.服务器处理请求得到最终结果发回去
+  6.浏览器解析返回的数据
+  7.展示给用户
+
+爬虫策略
+  1.从某个页面开始不断爬取页面上的链接
+      - 深度优先搜索
+      - 广度优先搜索
+  2.观察网址规律
+前端入门
+  HTML
+  HyperText Markup Language
+
+  css
+    选择器
+    .p{
+      }
+  id和class
+    id 在每个html中只有一个
+    class 可以有多个
+  js
+    var alertText = "Hello world" 定义变量
+    alert(alertText) 弹出提示框
+
+    #定义函数
+    function alertUser(){
+        alert("hello World!");
+    }
+    alertUser();

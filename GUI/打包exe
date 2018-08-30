@@ -1,0 +1,14 @@
+
+pyinstaller -F  -i TraceSpeeds.ico TraceSpeeds.py  # -w 不显示命令行窗口
+
+有人说py2exe太过陈旧缺少维护操作不便，
+推荐PyInstaller项目 www.pyinstaller.org
+可用一句命令打包：pyinstaller -F -w -i manage.ico app.py
+-F：打包为单文件-w：Windows程序，不显示命令行窗口
+-i：是程序图标，
+app.py是你要打包的py文件
+另外需要pywin32。
+安装方法：先跑pip install pywin32
+再跑pip install pyinstaller即可，多么简单
+
+pyinstaller -F  -i somke.ico smoke.py

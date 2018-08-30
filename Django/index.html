@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>xDjango</title>
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+    <p>{{welcome}}</p>
+    <h1>Django X</h1>
+    {% if flag %}
+        <p>welcome 1</p>
+    {% else %}
+        <p>welcome 2</p>
+    {% endif %}
+  
+    {% if request.user.is_authenticated %}
+        <p>{{request.user.username}},welcome...</p>
+    {% else %}
+        <p>Please login...</p>
+    {% endif %}
+
+    <p>Welcome to my Django website x !</p>
+    <a href="http://www.linxy.top">这是一个链接</a>
+    <ul>
+      {% for i in language_list %}
+      <li>{{i}}</li>
+      {% endfor %}
+    </ul>
+    <a class="link" href="{{link_dick.doerren}}">DOer.ren</a>
+    <a class="link" href="{{link_dick.baidu}}">BAidu.com</a>
+  </body>
+</html>
